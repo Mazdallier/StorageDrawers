@@ -1,4 +1,5 @@
 itemGroup.storageDrawers=Storage Drawers
+itemGroup.storageDrawersSorting=Storage Drawers - Trieur
 
 # Items
 item.upgradeTemplate.name=Modèle d'amélioration
@@ -11,8 +12,12 @@ item.upgradeStatus.level1.name=Amélioration statut (I)
 item.upgradeStatus.level1.description=Montre si le stockage est plein
 item.upgradeStatus.level2.name=Amélioration statut (II)
 item.upgradeStatus.level2.description=Montre le niveau de remplissage
-item.upgradeLock.name=Amélioration verrou
-item.upgradeLock.description=Conserve les éléments associés lorsqu'il est vide
+item.upgradeLock.name=Clef de tiroir
+item.upgradeLock.description=Verrouille et déverrouille les tiroirs
+item.upgradeVoid.name=Amélioration du vide
+item.upgradeVoid.description=Détruit des éléments en excès
+item.upgradeSorting.name=Amélioration de tri
+item.upgradeSorting.description=Pour un tranfert raffiné
 
 # Blocks
 tile.fullDrawers1.oak.name=Tiroir de chêne
@@ -52,6 +57,14 @@ tile.halfDrawers4.big_oak.name=Tiroirs compacts de chêne noir 2x2
 
 tile.compDrawers.name=Compactage du tiroir
 tile.drawerController.name=Contrôleur de tiroirs
+tile.controllerSlave.name=Contrôleur esclave
+
+tile.trim.oak.name=Chêne net
+tile.trim.spruce.name=Sapin net
+tile.trim.birch.name=Bouleau net
+tile.trim.jungle.name=Acajou net
+tile.trim.acacia.name=Acacia net
+tile.trim.big_oak.name=Chêne noir net
 
 storageDrawers.drawers.description=Contient %d piles par tiroir
 storageDrawers.upgrade.description=Augmente le stockage de %d fois la valeur de base
@@ -62,6 +75,8 @@ storageDrawers.waila.empty=Vide
 storageDrawers.waila.level=Niveau d'amélioration : %s
 storageDrawers.waila.drawer=Tiroir #%s: %s
 storageDrawers.waila.locked=Verrouillé
+storageDrawers.waila.void=Vidage
+storageDrawers.waila.sorting=Triage
 
 # Configuration
 storageDrawers.config.title=Configuration des tiroirs de stockage
@@ -79,6 +94,8 @@ storageDrawers.config.blocks.halfDrawers2=Tiroirs compacts 1x2
 storageDrawers.config.blocks.halfDrawers4=Tiroirs compacts 2x2
 storageDrawers.config.blocks.compDrawers=Compactage du tiroir
 storageDrawers.config.blocks.controller=Contrôleur de tiroirs
+storageDrawers.config.blocks.trim=Net
+storageDrawers.config.blocks.controllerSlave=Contrôleur esclave
 
 storageDrawers.config.upgrades=Options d'amélioration
 storageDrawers.config.upgrades.tooltip=Configure les améliorations de stockage induviduel.
@@ -94,6 +111,9 @@ storageDrawers.config.prop.itemRenderType.tooltip=Rendu des éléments en 3D ou 
 storageDrawers.config.prop.enableIndicatorUpgrades=Active les améliorations d'indicateur
 storageDrawers.config.prop.enableStorageUpgrades=Active les améliorations de stockage
 storageDrawers.config.prop.enableLockUpgrades=Active l'amélioration verrou
+storageDrawers.config.prop.enableVoidUpgrades=Active l'amélioration de vide
+storageDrawers.config.prop.enableSortingUpgrades=Active l'amélioration de tri
+storageDrawers.config.prop.enableSortingUpgrades.tooltip=Le tranfert raffiné doit être chargé.
 storageDrawers.config.prop.renderStorageUpgrades=Rendu des améliorations de stockage
 storageDrawers.config.prop.creativeTabVanillaWoods=Tableau en créatif de bois Vanilla
 storageDrawers.config.prop.creativeTabVanillaWoods.tooltip=Active tous les style de bois dans le tableau en mode créatif.
@@ -121,3 +141,4 @@ storageDrawers.config.integration.enableAE2=Active l'intégration de Applied Ene
 storageDrawers.config.integration.enableWaila=Active l'intégration de WAILA
 storageDrawers.config.integration.enableThaumcraft=Active l'intégration de Thaumcraft
 storageDrawers.config.integration.enableMineTweaker=Active l'intégration de MineTweaker
+storageDrawers.config.integration.enableRefinedRelocation=Active l'intégration Refined Relocation
